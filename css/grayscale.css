@@ -261,11 +261,12 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.contest-section {
+    margin-top:25px;
     width: 100%;
-    padding: 50px 0;
+    padding: 0px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/contests-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,7 +284,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .contest-section {
         padding: 100px 0;
     }
 
