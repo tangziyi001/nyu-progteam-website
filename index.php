@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#followus">FollowUs</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contest">Platform</a>
+                        <a class="page-scroll" href="#contest">Scores</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#practice">Practice</a>
@@ -116,21 +116,87 @@
         </div>
     </section>
 
-    <!-- contest Section -->
+
+    <!-- Ranking Section -->
     <section id="contest" class="content-section text-center">
         <div class="contest-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Weekly Contest Platform</h2>
-                    <p>We normally hold weekly practice contest from 5pm to 7pm on each Friday at CIWW 102, 251 Mercer St, New York, NY 10012. Click the button below to access and set up your account for the contest platform. </p>
+                    <h2>Platform & Scores</h2>
+                    <p>If you are aiming to represent NYU in national programming contests, you have to gain enough score by solving problems from weekly practice and contests on our platform. Here you can access the platform or check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
                     <a href="http://acm.hust.edu.cn/vjudge/contest/toListContest.action#contestType=0&contestRunningStatus=0&contestOpenness=0&title=nyu&manager=" class="btn btn-default btn-lg">Platform</a>
-                    <p></p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" onclick="readTextFile">ranking</button>
                 </div>
             </div>
         </div>
+        
     </section>
-
-
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog" style="background-color:black">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content" style="background-color:black;">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Cumulative Scores Ranking</h4>
+          </div>
+          <div class="modal-body" id="modalbody">
+            <table class="table" id="ranking">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Handle</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+                    <?php
+                        $files = array_diff(scandir("./scores"), array('.', '..'));
+                        $allData = array();
+                        foreach($files as $file){
+                            if(strlen($file) > 4 && substr($file, strlen($file)-4) === ".txt"){
+                                $myfile = fopen("scores/".$file, "r") or die("Unable to open file!");
+                                $info = explode("\n", fread($myfile,filesize("scores/".$file)));
+                                fclose($myfile);
+                                foreach($info as $entry){
+                                    $arr = explode(" ", $entry);
+                                    $key = $arr[0];
+                                    $val = intval($arr[1]);
+                                    // echo $key.$val."\n";
+                                    if(array_key_exists($key, $allData))
+                                        $allData[$key] += $val;
+                                    else
+                                        $allData[$key] = $val;
+                                }
+                            }
+                        }
+                        arsort($allData);
+                        $rank = 0;
+                        foreach($allData as $key => $val){
+                            $rank++;
+                            echo "<tr>";
+                            echo "<td>";
+                            echo $rank;
+                            echo "</td>";
+                            echo "<td>";
+                            echo $key;
+                            echo "</td>";
+                            echo "<td>";
+                            echo $val;
+                            echo "</td>";
+                            echo "</tr>";
+                        }
+                    ?>
+                </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- practice Section -->
     <section id="practice" class="container content-section text-center" style="margin-bottom:70px">
         <div class="row">
@@ -165,7 +231,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contest Schedule</h2>
                 <p>
-                    Here is a schedule of several competitive programming contests held by reknown online coding platforms.
+                    Here is a schedule of several competitive programming contests held by renown online coding platforms.
                 </p>
             </div>
                 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4s4sei7e00r3s6a3pt57l3acv8%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no">
@@ -173,7 +239,6 @@
             
         </div>
     </section>
-
     <!-- Space  -->
     <!-- <div style="margin:0 auto;margin-top:300px">
     </div> -->
@@ -195,7 +260,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
 </body>
 
 </html>
