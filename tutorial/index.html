@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title>Progteam Getting Started</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+  <div class="page-header">
+    <h1>Progteam Getting Started</h1>
+    <p class="lead">New to Progteam? This tutorial walks you through solving your first problem!</p>
+  </div>
+</div>
+<div class="container content">
+<h3>A Sample Problem</h3>
+<p>
+  At Progteam, we solve programming problems.
+  A programming problem asks you to write a program to perform a particular task.
+  For example, let's take a look at this simple problem:
+</p>
+
+<div class="box">
+  <h4>A + B Problem</h4>
+  <h5>Description</h5>
+  <p>Calculate a + b</p>
+  <h5>Input</h5>
+  <p>Two integers a, b (0 <= a, b <= 10)</p>
+  <h5>Output</h5>
+  <p>A single integer, the sum of a and b.</p>
+  <h5>Sample Input</h5>
+  <pre>1 2</pre>
+  <h5>Sample Output</h5>
+  <pre>3</pre>
+</div>
+
+<p>
+  It does not seem to be very hard, does it?
+  A sample solution in C++ and Java will be as follows.
+</p>
+
+<pre>#include &lt;iostream&gt;
+using namespace std;
+int main()
+{
+  int a,b;
+  cin >> a >> b;
+  cout << a + b << endl;
+  return 0;
+}</pre>
+
+<pre>import java.io.*;
+import java.util.*;
+public class Main
+{
+  public static void main (String args[]) throws Exception
+  {
+    Scanner cin = new Scanner(System.in);
+    int a = cin.nextInt(), b = cin.nextInt();
+    System.out.println(a + b);
+  }
+}</pre>
+
+<p>
+  The two programs above are straightforward.
+  Note that at Progteam your programs will always be judged by a judge machine, instead of a human.
+  The machine will run your program with test data (typically unknown to you) and
+  check if your program's output matches exactly the correct answer.
+  Therefore there are a few important things to keep in mind:
+</p>
+
+<ul>
+  <li>
+    Your must always read from standard input (stdin in C++ and System.in in Java)
+    You should not read from a file, or pass the data as arguments of the main function.
+  </li>
+  <li>
+    Similarly, you must always output to standard output (stdout in C++ and System.out in Java).
+    You should not output to a file.
+  </li>
+  <li>
+    Your output must be exactly the same as the correct answer, without any extra characters.
+    You must remove any debugging printing and logs to standard output before submitting your program.
+  </li>
+</ul>
+
+<h3>Judge's Verdicts</h3>
+<p>
+  Depending on whether your solution is correct or not, the judge will reply with a verdict after you submit your program.
+  A verdict can be one of the following:
+</p>
+<ul>
+  <li>
+    <span class="verdict">Accepted</span>:
+    Your program has produced correct answers on all test data, you have successfully solved the problem! \o/
+  </li>
+  <li>
+    <span class="verdict">Wrong Answer</span>:
+    Your program's output on some test data is wrong.
+    This is a common case as most things don't go as smoothly as we expect, do they? :(
+    Typically, you may have a bug in your code. Just debug carefully and fix it.
+    However it is also possible that your algorithm is wrong.
+    That is, you are solving the task in a wrong way.
+  </li>
+  <li>
+    <span class="verdict">Time Limit Exceeded</span>:
+    Your solution is not efficient enough and did not finish in the given time limit.
+    Most programming problems at Progteam are about algorithms.
+    In this case you must find a faster algorithm for this task!
+    Efficiency is a key factor of the problems you see at Progteam.
+    So always think about a solution's complexity before you go ahead and code it!
+  </li>
+  <li>
+    <span class="verdict">Runtime Error</span>:
+    Your program did not terminate normally and aborted on error.
+    This most of the time could be a segfault of accessing prohibited memory, e.g. array index out of bound.
+    On some judges if you allocate too much memory, you might also get this error.
+    Other possibilities include divide-by-zero, stack overflow, etc.
+  </li>
+</ul>
+
+<h3>Using the Virtual Judge</h3>
+  <p>
+    Most of our practices are held on the <a href="http://acm.hust.edu.cn/vjudge/">Virtual Judge</a> (vjudge), where you may find problem descriptions and submit to the problems.
+  </p>
+  <p>
+    First, sign up for vjudge and login with your account.
+    At each Progteam event we will provide you with a contest link.
+    Open the link in a browser and you shall see the contest page.
+    Here you go, read the problems and solve them!
+    Alternatively, in vjudge contest tab you may search for "NYU" and find the ongoing contest in the search result.
+  </p>
+</div>
+</body>
+</html>
