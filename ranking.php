@@ -22,7 +22,14 @@
     $rank = 0;
     foreach($allData as $key => $val){
         $rank++;
-        echo "<tr>";
+        if($rank == 1){
+            echo "<tr style='color:red'>";
+        } elseif($rank == 2){
+            echo "<tr style='color:yellow'>";
+        } elseif($rank == 3){
+            echo "<tr style='color:blue'>";
+        }
+        else echo "<tr>";
         echo "<td>";
         echo $rank;
         echo "</td>";

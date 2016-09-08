@@ -144,7 +144,7 @@
           <div class="modal-body" id="modalbody">
             <table class="table" id="ranking">
                 <thead>
-                    <tr
+                    <tr>
                         <th>Rank</th>
                         <th>Handle</th>
                         <th>Score</th>
