@@ -1,0 +1,18 @@
+.box {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 2px 18px;
+}
+
+.content {
+  margin-bottom: 120px;
+}
+
+.content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .verdict {
+  font-weight: bold;
+}
