@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#followus">FollowUs</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contest">Scores</a>
+                        <a class="page-scroll" href="#contest">GET STARTED</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#practice">Practice</a>
@@ -122,8 +122,9 @@
         <div class="contest-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Platform & Scores</h2>
-                    <p>If you are aiming to represent NYU in national programming contests, you have to gain enough score by solving problems from weekly practice and contests on our platform. Here you can access the platform or check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
+                    <h2>GET STARTED</h2>
+                    <p>If you are aimed to represent NYU in national programming contests, you have to gain enough score by solving problems from weekly practice and contests on our platform. Here you can access the starter tutorial and the contest platform. You can also check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
+                    <a href="tutorial/index.html" class="btn btn-default btn-lg">tutorial</a>
                     <a href="http://acm.hust.edu.cn/vjudge/contest/toListContest.action#contestType=0&contestRunningStatus=0&contestOpenness=0&title=nyu&manager=" class="btn btn-default btn-lg">Platform</a>
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" onclick="readTextFile">ranking</button>
