@@ -1,5 +1,0 @@
-TestUserA 200
-TestUserB 40
-TestUserC 1
-TestUserD 300
-TestUserE 10
