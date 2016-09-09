@@ -120,7 +120,7 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>GET Practice!</h2>
-                    <p>Practice makes perfect. You can get started with our tutorial, then solving Progteam's practice problems on our platform. You can also check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
+                    <p>Practice makes perfect. You can get started with our tutorial, then solving Progteam's practice problems on our platform. You can also check your scores ranking. The more problems you've solved, the higher score you would gain.</p>
                     <a href="tutorial/index.html" class="btn btn-default btn-lg">tutorial</a>
                     <a href="https://www.bnuoj.com/v3/contest.php?virtual=1" class="btn btn-default btn-lg">Platform</a>
                     <!-- Trigger the modal with a button -->

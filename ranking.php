@@ -23,11 +23,11 @@
     foreach($allData as $key => $val){
         $rank++;
         if($rank == 1){
-            echo "<tr style='color:red'>";
+            echo "<tr style='color:#ce0400'>";
         } elseif($rank == 2){
-            echo "<tr style='color:yellow'>";
+            echo "<tr style='color:#fad163'>";
         } elseif($rank == 3){
-            echo "<tr style='color:blue'>";
+            echo "<tr style='color:#5b5bca'>";
         }
         else echo "<tr>";
         echo "<td>";
