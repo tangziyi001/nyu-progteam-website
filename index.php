@@ -125,7 +125,7 @@
                     <h2>GET STARTED</h2>
                     <p>If you are aimed to represent NYU in national programming contests, you have to gain enough score by solving problems from weekly practice and contests on our platform. Here you can access the starter tutorial and the contest platform. You can also check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
                     <a href="tutorial/index.html" class="btn btn-default btn-lg">tutorial</a>
-                    <a href="http://acm.hust.edu.cn/vjudge/contest/toListContest.action#contestType=0&contestRunningStatus=0&contestOpenness=0&title=nyu&manager=" class="btn btn-default btn-lg">Platform</a>
+                    <a href="https://www.bnuoj.com/v3/contest.php?virtual=1" class="btn btn-default btn-lg">Platform</a>
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" onclick="readTextFile">ranking</button>
                 </div>
