@@ -59,10 +59,7 @@
                         <a class="page-scroll" href="#followus">FollowUs</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contest">GET STARTED</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#practice">Practice</a>
+                        <a class="page-scroll" href="#contest">Practice</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#schedule">Schedules</a>
@@ -122,12 +119,16 @@
         <div class="contest-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>GET STARTED</h2>
-                    <p>If you are aimed to represent NYU in national programming contests, you have to gain enough score by solving problems from weekly practice and contests on our platform. Here you can access the starter tutorial and the contest platform. You can also check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
+                    <h2>GET Practice!</h2>
+                    <p>Practice makes perfect. You can get started with our tutorial, then solving Progteam's practice problems on our platform. You can also check your cumulative scores ranking. The more problems you've solved, the higher score you would gain.</p>
                     <a href="tutorial/index.html" class="btn btn-default btn-lg">tutorial</a>
                     <a href="https://www.bnuoj.com/v3/contest.php?virtual=1" class="btn btn-default btn-lg">Platform</a>
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" onclick="readTextFile">ranking</button>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">ranking</button>
+                    <!-- <p>Besides, there are several renown online judges for you to show off your problem solving skills.</p>
+                        <a href="https://uva.onlinejudge.org/" class="btn btn-default btn-lg"> <span class="network-name">UVA</span></a>
+                        <a href="http://codeforces.com/" class="btn btn-default btn-lg"><span class="network-name">Codeforces</span></a>
+                        <a href="http://poj.org/" class="btn btn-default btn-lg"> <span class="network-name">POJ</span></a> -->
                 </div>
             </div>
         </div>
@@ -162,26 +163,7 @@
         </div>
       </div>
     </div>
-    <!-- practice Section -->
-    <section id="practice" class="container content-section text-center" style="margin-bottom:70px">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Get Practice!</h2>
-                <p>Practice makes perfect. No one can become an advanced algorithmist without practicing. Below are some algorithmic problems from popular online judges for you to start with.</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://uva.onlinejudge.org/" class="btn btn-default btn-lg"> <span class="network-name">UVA</span></a>
-                    </li>
-                    <li>
-                        <a href="http://codeforces.com/" class="btn btn-default btn-lg"><span class="network-name">Codeforces</span></a>
-                    </li>
-                    <li>
-                        <a href="http://poj.org/" class="btn btn-default btn-lg"> <span class="network-name">POJ</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+
     <!-- schedule Section -->
     <section id="schedule" class="container content-section text-center">
         <div class="row">
