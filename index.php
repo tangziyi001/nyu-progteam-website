@@ -122,7 +122,7 @@
                     <h2>GET Practice!</h2>
                     <p>Practice makes perfect. You can get started with our tutorial, then solving Progteam's practice problems on our platform. You can also check your scores ranking. The more problems you've solved, the higher score you would gain.</p>
                     <a href="tutorial/index.html" class="btn btn-default btn-lg">tutorial</a>
-                    <a href="https://www.bnuoj.com/v3/contest.php?virtual=1" class="btn btn-default btn-lg">Platform</a>
+                    <a href="http://vjudge.net/contest/#contestType=0&contestRunningStatus=0&contestOpenness=0&title=nyu&manager=" class="btn btn-default btn-lg">Platform</a>
                     <!-- Trigger the modal with a button -->
                     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">ranking</button>
                     <!-- <p>Besides, there are several renown online judges for you to show off your problem solving skills.</p>
