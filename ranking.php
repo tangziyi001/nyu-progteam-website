@@ -8,6 +8,7 @@
             fclose($myfile);
             foreach($info as $entry){
                 $arr = explode(" ", $entry);
+                if (sizeof($arr) != 2) continue;
                 $key = $arr[0];
                 $val = intval($arr[1]);
                 // echo $key.$val."\n";
