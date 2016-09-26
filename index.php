@@ -96,7 +96,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About NYU Progteam</h2>
-                <p>Our team is consisted of brilliant CS/Math students who enjoy solving algorithmic problems and learning blazingly fast algorithm implementations.</p>
+                <p>Our team is consisted of brilliant students who enjoy solving algorithmic problems and learning blazingly fast algorithm implementations.</p>
                 <p>We host weekly onsite practice contests on each Friday night, with refreshments. No matter you are a programming veteran or a beginner, just bring your fully charged laptop and come. You will always benefit from our 2 hour weekly meetings.</p>
                 <p>We hold <a href="http://cs.nyu.edu/acm/progteam/prognova/">NYU ProgNova Programming Contest</a> annually. The winners, as well as all qualified Progteam members, are encouraged to attend the <a href="https://icpc.baylor.edu/">ACM International Colligiate Programming Contest</a>. </p>
             </div>
@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Follow Us</h2>
-                <p>If you are passionate about solving algorithmic problems with us from now on, learning advanced algorithmic thoughts and eventually becoming an experienced competitive programmer, don't forget to sign up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> and <a href="http://piazza.com/nyu/fall2015/progteam">discussion board</a> for future announcements.</p>
+                <p>If you are passionate about solving algorithmic problems with us from now on, learning advanced algorithmic thoughts and eventually becoming an experienced competitive programmer, don't forget to sign up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> for future announcements.</p>
             </div>
         </div>
     </section>
