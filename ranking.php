@@ -21,16 +21,16 @@
     }
     arsort($allData);
     $rank = 0;
+    $count = sizeof($allData);
     foreach($allData as $key => $val){
         $rank++;
-        if($rank == 1){
+        if ($rank <= $count / 100.0 * 10) {
             echo "<tr style='color:#ce0400'>";
-        } elseif($rank == 2){
+        } elseif ($rank <= $count / 100.0 * 20) {
             echo "<tr style='color:#fad163'>";
-        } elseif($rank == 3){
+        } elseif ($rank <= $count / 100.0 * 40) {
             echo "<tr style='color:#5b5bca'>";
-        }
-        else echo "<tr>";
+        } else echo "<tr>";
         echo "<td>";
         echo $rank;
         echo "</td>";
