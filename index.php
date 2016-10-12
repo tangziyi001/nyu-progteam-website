@@ -143,7 +143,7 @@
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title" style="text-align:center">Scores Ranking<br>(Fall 2016 - Spring 2017)</h4>
           </div>
-          <div class="modal-body" id="modalbody" style="height:500px;overflow: scroll;>
+          <div class="modal-body" id="modalbody" style="height:500px;overflow: scroll;">
             <table class="table" id="ranking">
                 <thead>
                     <tr>
