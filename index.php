@@ -53,7 +53,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Events</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#followus">FollowUs</a>
@@ -93,12 +93,21 @@
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
+        <h2>Major Events</h2>
+        <p>The following events are open to everyone who enjoy solving algorithmic problems and competing in programming contests</p>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About NYU Progteam</h2>
-                <p>Our team is consisted of brilliant students who enjoy solving algorithmic problems and learning blazingly fast algorithm implementations.</p>
-                <p>We host weekly onsite practice contests on each Friday night, with refreshments. No matter you are a programming veteran or a beginner, just bring your fully charged laptop and come. You will always benefit from our 2 hour weekly meetings.</p>
-                <p>We hold <a href="http://cs.nyu.edu/acm/progteam/prognova/">NYU ProgNova Programming Contest</a> annually. The winners, as well as all qualified Progteam members, are encouraged to attend the <a href="https://icpc.baylor.edu/">ACM International Colligiate Programming Contest</a>. </p>
+
+            <div class="col-lg-4">
+                <h3>Weekly Practice</h3>
+                <p>We host weekly onsite practice contests on each Friday night, with refreshments. The event is crafted for both programming veterans and beginners. No prerequisite is required except for a fully charged laptop.</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Algorithm Cyclone</h3>
+                <p>Algorithm Cyclone is a weekly seminar where team members present solutions to advanced algorithmic problems from TopCoder, Codeforces, USACO, etc. If you are a huge enthusiast of algorithmic problems, you are welcomed to come on each Wednesday and Friday night.</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>ICPC Training</h3>
+                <p>We hold special training sessions before the <a href="https://icpc.baylor.edu/">ACM International Colligiate Programming Contest</a>. You will find your group member here and get familiar with contest rules, problems settings and coding environment.</p>
             </div>
         </div>
     </section>
