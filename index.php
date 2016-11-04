@@ -94,20 +94,20 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <h2>Major Events</h2>
-        <p>The following events are open to everyone who enjoy solving algorithmic problems and competing in programming contests</p>
+        <p>Events are open to everyone.</p>
         <div class="row">
 
             <div class="col-lg-4">
                 <h3>Weekly Practice</h3>
-                <p>We host weekly onsite practice contests on each Friday night, with refreshments. The event is crafted for both programming veterans and beginners. No prerequisite is required except for a fully charged laptop.</p>
+                <p>We host weekly onsite practice contests on each Friday night with refreshments. The event is crafted for both programming veterans and beginners. No prerequisite is required except for a fully charged laptop.</p>
             </div>
             <div class="col-lg-4">
                 <h3>Algorithm Cyclone</h3>
-                <p>Algorithm Cyclone is a weekly seminar where team members present solutions to advanced algorithmic problems from TopCoder, Codeforces, USACO, etc. If you are a huge enthusiast of algorithmic problems, you are welcomed to come on each Wednesday and Friday night.</p>
+                <p>Algorithm Cyclone is a weekly seminar where team members present solutions to advanced algorithmic problems from TopCoder, Codeforces, USACO, etc. If you are a huge enthusiast of algorithmic problems, then this is the place for you!</p>
             </div>
             <div class="col-lg-4">
                 <h3>ICPC Training</h3>
-                <p>We hold special training sessions before the <a href="https://icpc.baylor.edu/">ACM International Colligiate Programming Contest</a>. You will find your group member here and get familiar with contest rules, problems settings and coding environment.</p>
+                <p>We hold special training sessions before the <a href="https://icpc.baylor.edu/">ACM International Colligiate Programming Contest</a>. You will hone your programming skills here with series of hands-on practices and get ready for the ICPC contest.</p>
             </div>
         </div>
     </section>
@@ -117,7 +117,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Follow Us</h2>
-                <p>If you are passionate about solving algorithmic problems with us from now on, learning advanced algorithmic thoughts and eventually becoming an experienced competitive programmer, don't forget to sign up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> for future announcements.</p>
+                <p>If you are passionate about solving algorithmic problems, learning advanced algorithms, or eventually becoming an experienced competitive programmer, follow us by signing up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> and <a href="https://nyu-progteam.slack.com/signup">Slack team</a>!</p>
             </div>
         </div>
     </section>
