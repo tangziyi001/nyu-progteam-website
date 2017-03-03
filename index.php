@@ -59,6 +59,9 @@
                         <a class="page-scroll" href="#followus">FollowUs</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#officials">Officials</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contest">Practice</a>
                     </li>
                     <li>
@@ -114,14 +117,42 @@
 
     <!-- FollowUp Section -->
     <section id="followus" class="container content-section text-center" style="margin-bottom:90px">
+        <h2>Follow Us</h2>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Follow Us</h2>
                 <p>If you are passionate about solving algorithmic problems, learning advanced algorithms, or eventually becoming an experienced competitive programmer, follow us by signing up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> and <a href="https://nyu-progteam.slack.com/signup">Slack team</a>!</p>
             </div>
         </div>
     </section>
 
+    <!-- Officials Section -->
+    <section id="officials" class="container content-section text-center" style="margin-bottom:90px">
+        <h2>Officials</h2>
+        <p>Team members with official duties</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="http://cs.nyu.edu/~korth/">
+                <img src="img/Korth.jpg" alt="Evan Korth" height="200" width="200">
+                <figcaption style="font-size:24px">Evan Korth</figcaption>
+                </a>
+                <figcaption>Team Advisor</figcaption>
+            </div>
+            <div class="col-lg-4">
+                <a href="http://bowenyu.me/">
+                <img src="img/yu.png" alt="Bowen Yu" height="200" width="200">
+                <figcaption style="font-size:24px">Bowen Yu</figcaption>
+                </a>
+                <figcaption>Coach</figcaption>
+            </div>
+            <div class="col-lg-4">
+                <a href="mailto:zt375@nyu.edu">
+                <img src="img/tang.jpg" alt="Ziyi Tang" height="200" width="200">
+                <figcaption style="font-size:24px">Ziyi Tang</figcaption>
+                </a>
+                <figcaption>Assistant Coach</figcaption>
+            </div>
+        </div>
+    </section>
 
     <!-- Ranking Section -->
     <section id="contest" class="content-section text-center">
