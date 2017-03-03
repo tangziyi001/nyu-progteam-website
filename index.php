@@ -59,6 +59,9 @@
                         <a class="page-scroll" href="#followus">FollowUs</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#officials">Leaders</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contest">Practice</a>
                     </li>
                     <li>
@@ -114,14 +117,50 @@
 
     <!-- FollowUp Section -->
     <section id="followus" class="container content-section text-center" style="margin-bottom:90px">
+        <h2>Follow Us</h2>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Follow Us</h2>
                 <p>If you are passionate about solving algorithmic problems, learning advanced algorithms, or eventually becoming an experienced competitive programmer, follow us by signing up for our <a href="http://www.cs.nyu.edu/mailman/listinfo/progteam">mailing list</a> and <a href="https://nyu-progteam.slack.com/signup">Slack team</a>!</p>
             </div>
         </div>
     </section>
 
+    <!-- Officials Section -->
+    <section id="officials" class="container content-section text-center" style="margin-bottom:90px">
+        <h2>Team Leaders</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="http://cs.nyu.edu/~korth/">
+                <img src="img/Korth.jpg" alt="Evan Korth" height="200" width="200">
+                <figcaption style="font-size:24px">Evan Korth</figcaption>
+                </a>
+                <figcaption style="font-size:20px">Faculty Advisor, Coach</figcaption>
+                <figcaption>Clinical Professor at NYU CIMS</figcaption>
+                <figcaption>Co-founder of HackNY</figcaption>
+                <figcaption>Faculty Advisor to NYU chapter of ACM</figcaption>
+            </div>
+            <div class="col-lg-4">
+                <a href="http://bowenyu.me/">
+                <img src="img/yu.png" alt="Bowen Yu" height="200" width="200">
+                <figcaption style="font-size:24px">Bowen Yu</figcaption>
+                </a>
+                <figcaption style="font-size:20px">Coach</figcaption>
+                <figcaption>PhD Candidate at NYU Tandon School of Engineering</figcaption>
+                <figcaption>North America Champion, ACM-ICPC World Final 2013</figcaption>
+                <figcaption>NYU ICPC Team Member 2013-2014</figcaption>
+            </div>
+            <div class="col-lg-4">
+                <a href="mailto:zt375@nyu.edu">
+                <img src="img/tang.jpg" alt="Ziyi Tang" height="200" width="200">
+                <figcaption style="font-size:24px">Ziyi Tang</figcaption>
+                </a>
+                <figcaption style="font-size:20px">Assistant Coach</figcaption>
+                <figcaption>Undergraduate Student at NYU CAS</figcaption>
+                <figcaption>3rd Place, ACM-ICPC Greater New York Region 2016</figcaption>
+                <figcaption>NYU ICPC Team Member 2015-present</figcaption>
+            </div>
+        </div>
+    </section>
 
     <!-- Ranking Section -->
     <section id="contest" class="content-section text-center">
@@ -187,7 +226,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contest Schedule</h2>
                 <p>
-                    Here is a schedule of several competitive programming contests held by renown online coding platforms.
+                    Here is a schedule of several competitive programming contests held by renowned online coding platforms.
                 </p>
             </div>
                 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4s4sei7e00r3s6a3pt57l3acv8%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no">
