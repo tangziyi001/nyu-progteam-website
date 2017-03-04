@@ -145,8 +145,8 @@
                 <figcaption style="font-size:24px">Bowen Yu</figcaption>
                 </a>
                 <figcaption style="font-size:20px">Coach</figcaption>
-                <figcaption>PhD Candidate at NYU Tandon School of Engineering</figcaption>
-                <figcaption>North America Champion, ACM-ICPC World Final 2013</figcaption>
+                <figcaption>PhD Candidate at NYU Tandon ViDA Lab</figcaption>
+                <figcaption>North America Champion, ACM-ICPC World Final 2014</figcaption>
                 <figcaption>NYU ICPC Team Member 2013-2014</figcaption>
             </div>
             <div class="col-lg-4">
