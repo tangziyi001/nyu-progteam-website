@@ -129,7 +129,7 @@
     <section id="officials" class="container content-section text-center" style="margin-bottom:90px">
         <h2>Team Leaders</h2>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <a href="http://cs.nyu.edu/~korth/">
                 <img src="img/Korth.jpg" alt="Evan Korth" height="200" width="200">
                 <figcaption style="font-size:24px">Evan Korth</figcaption>
@@ -139,17 +139,26 @@
                 <figcaption>Co-founder of HackNY</figcaption>
                 <figcaption>Faculty Advisor to NYU chapter of ACM</figcaption>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <a href="http://bowenyu.me/">
                 <img src="img/yu.png" alt="Bowen Yu" height="200" width="200">
                 <figcaption style="font-size:24px">Bowen Yu</figcaption>
                 </a>
                 <figcaption style="font-size:20px">Coach</figcaption>
-                <figcaption>PhD Candidate at NYU Tandon ViDA Lab</figcaption>
-                <figcaption>North America Champion, ACM-ICPC World Final 2014</figcaption>
+                <figcaption>PhD Candidate at NYU Tandon VIDA Lab</figcaption>
+                <figcaption>North America Champion, ACM-ICPC World Finals 2014</figcaption>
                 <figcaption>NYU ICPC Team Member 2013-2014</figcaption>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
+                <a href="ronald.rojas@nyu.edu">
+                <img src="img/ronald.png" alt="Ronald Rojas" height="200" width="200">
+                <figcaption style="font-size:24px">Ronald Rojas</figcaption>
+                </a>
+                <figcaption style="font-size:20px">Assistant Coach</figcaption>
+                <figcaption>Undergraduate Student at NYU CAS</figcaption>
+                <figcaption>NYU ICPC Team Member 2016-present</figcaption>
+            </div>
+            <div class="col-lg-3">
                 <a href="mailto:zt375@nyu.edu">
                 <img src="img/tang.jpg" alt="Ziyi Tang" height="200" width="200">
                 <figcaption style="font-size:24px">Ziyi Tang</figcaption>
